@@ -1,0 +1,700 @@
+[
+ {
+  "id": "T01",
+  "status": "verified-core",
+  "cluster": "C1",
+  "year": 2014,
+  "title": "Modal identification of structures by a novel approach based on FDD-wavelet method",
+  "venue": "Journal of Sound and Vibration, 333(3), 1024-1045",
+  "doi": "10.1016/j.jsv.2013.09.038",
+  "consensus_url": "https://consensus.app/papers/details/7df0af931cf859fd8aeae98bd902e280/?utm_source=claude_desktop",
+  "authors": [
+   "R. Tarinejad",
+   "M. Damadipour"
+  ],
+  "confidence": "high",
+  "evidence_source": "consensus, websearch",
+  "belongs_reason": "Consensus lists R. Tarinejad as first author. Co-author Damadipour is a known collaborator. Already Consensus-verified and found again in query 1.",
+  "structure_type": "generic (numerical MDOF systems with regular and irregular mass/stiffness)",
+  "methods": [
+   "Frequency Domain Decomposition (FDD)",
+   "Continuous Wavelet Transform (CWT)",
+   "cyclic averaging of correlation functions (CACF)",
+   "modified Morlet wavelet with two free parameters",
+   "wavelet-coefficient entropy minimization"
+  ],
+  "key_findings": "Hybrid FDD-Wavelet OMA: FDD gives frequencies and mode shapes, CWT of the cyclically averaged correlation functions gives damping. Works for weak (ambient) and strong (earthquake) records, short or long. Optimal Morlet parameters come from minimizing entropy. Results beat the classic methods and match exact numerical solutions.",
+  "stated_limitations_or_future_work": "Validation in this paper is on numerical models. Field application was left to later work (Karun IV, Pacoima)."
+ },
+ {
+  "id": "T02",
+  "status": "verified-core",
+  "cluster": "C1",
+  "year": 2014,
+  "title": "Full-scale experimental modal analysis of an arch dam: The first experience in Iran",
+  "venue": "Soil Dynamics and Earthquake Engineering, 61-62, 188-196",
+  "doi": "10.1016/j.soildyn.2014.01.020",
+  "consensus_url": "https://consensus.app/papers/details/d136a11dbc425495b8c495bd3bad4f52/?utm_source=claude_desktop",
+  "authors": [
+   "Reza Tarinejad",
+   "Mohammad Taghi Ahmadi",
+   "Ronald S. Harichandran"
+  ],
+  "confidence": "high",
+  "evidence_source": "consensus, websearch",
+  "belongs_reason": "Tarinejad is first author, with Ahmadi (Tarbiat Modares, PhD supervisor) and Harichandran (known collaborator). This matches the leads exactly.",
+  "structure_type": "arch dam (Shahid Rajaee concrete arch dam, northern Iran)",
+  "methods": [
+   "forced vibration test with crest-mounted exciters (in-phase / out-of-phase)",
+   "on-off and frequency-sweep tests (0.1 Hz steps)",
+   "auto/cross power and coherence spectra",
+   "FE model calibrated with earlier ambient tests",
+   "dam-reservoir-foundation interaction"
+  ],
+  "key_findings": "First full-scale forced-vibration modal test of an arch dam in Iran. Nine middle modes and their damping ratios were estimated up to 14 Hz. Eight modes agree well with the calibrated FE model of the dam-reservoir-foundation system.",
+  "stated_limitations_or_future_work": "The exciters had limited maximum force and there were too few sensors, so two sensor arrangements were needed. The lowest modes were not captured; the later B-SSI paper (2018) reanalysed the data and found them."
+ },
+ {
+  "id": "T03",
+  "status": "verified-core",
+  "cluster": "C1",
+  "year": 2016,
+  "title": "Extended FDD-WT method based on correcting the errors due to non-synchronous sensing of sensors",
+  "venue": "Mechanical Systems and Signal Processing, 72-73, 547-566",
+  "doi": "",
+  "consensus_url": "https://consensus.app/papers/details/8a751087afca5618bb63f12496c8dc49/?utm_source=claude_desktop",
+  "authors": [
+   "Reza Tarinejad",
+   "Majid Damadipour"
+  ],
+  "confidence": "high",
+  "evidence_source": "consensus, websearch",
+  "belongs_reason": "Consensus lists R. Tarinejad as first author. Web search confirms the authors are Tarinejad and Damadipour. Already Consensus-verified and found again in query 4. The DOI is left empty because only the ScienceDirect PII was found.",
+  "structure_type": "arch dam (Pacoima Dam, 13 Jan 2001 earthquake) + 3DOF numerical",
+  "methods": [
+   "FDD-WT",
+   "time delay estimation (TDE)",
+   "PHAT-beta generalized cross-correlation",
+   "4-Spectral comparison method"
+  ],
+  "key_findings": "Extends FDD-WT to correct time delays between sensors that are not synchronized. PHAT-beta was chosen as the TDE method for noisy records. The corrected modal parameters of Pacoima Dam agree with the 4-Spectral method and with the literature.",
+  "stated_limitations_or_future_work": "Aims to extend the method to large structures where sensors are not synchronized. Validation used one theoretical example and one dam earthquake."
+ },
+ {
+  "id": "T04",
+  "status": "verified-core",
+  "cluster": "C1",
+  "year": 2016,
+  "title": "Modal identification of Karun IV arch dam based on ambient vibration tests and seismic responses",
+  "venue": "Journal of Vibroengineering, 18(6), 3869-3880",
+  "doi": "10.21595/jve.2016.16989",
+  "consensus_url": "https://consensus.app/papers/details/c9a65259655555e787f220c21e9495da/?utm_source=claude_desktop",
+  "authors": [
+   "R. Tarinejad",
+   "K. Falsafian",
+   "M. T. Aalami",
+   "M. T. Ahmadi"
+  ],
+  "confidence": "high",
+  "evidence_source": "consensus, websearch",
+  "belongs_reason": "Tarinejad is first author. Co-authors Ahmadi (Tarbiat Modares PhD link) and Aalami (Tabriz) fit his profile. Already Consensus-verified and found again in query 10.",
+  "structure_type": "arch dam (Karun IV, highest concrete arch dam in Iran)",
+  "methods": [
+   "FDD-Wavelet (non-parametric OMA)",
+   "ambient vibration test",
+   "seismic response analysis",
+   "stabilization diagram",
+   "averaged coherence spectrum (ACS)"
+  ],
+  "key_findings": "OMA of Karun IV from ambient tests (19 Mar 2014) and an earthquake (3 Mar 2015, epicentre about 133 km away). Nine natural frequencies were identified from the ambient records and four from the seismic ones. The stabilization diagram and ACS separated spurious modes from true ones.",
+  "stated_limitations_or_future_work": "Fewer modes are identifiable from the distant, weak seismic response than from the ambient tests."
+ },
+ {
+  "id": "T05",
+  "status": "verified-core",
+  "cluster": "C1",
+  "year": 2018,
+  "title": "Modal identification of arch dams using balanced stochastic subspace identification",
+  "venue": "Journal of Vibration and Control (online 2016)",
+  "doi": "10.1177/1077546316675038",
+  "consensus_url": "https://consensus.app/papers/details/eb60745d145a5c1a97879115aebe06bf/?utm_source=claude_desktop",
+  "authors": [
+   "Reza Tarinejad",
+   "Mehran Pourgholi"
+  ],
+  "confidence": "high",
+  "evidence_source": "consensus, websearch, publisher",
+  "belongs_reason": "Consensus and the SAGE listing show Reza Tarinejad as first author with Mehran Pourgholi. Arch-dam OMA topic, consistent with the Shahid Rajaee test series.",
+  "structure_type": "arch dam (Shahid Rajaee forced-vibration data; Pacoima Dam 2001 San Fernando earthquake records)",
+  "methods": [
+   "balanced stochastic subspace identification (B-SSI)",
+   "stochastic realization theory",
+   "canonical correlation analysis",
+   "comparison with data-driven SSI"
+  ],
+  "key_findings": "New OMA method that identifies directly in the prediction space using orthonormal vectors of the data space. Reanalysing the Shahid Rajaee forced-vibration tests gave more accurate frequencies and the first three modes, which the earlier analysis missed. On Pacoima, frequencies and damping were accurate and computation time fell by up to 50%.",
+  "stated_limitations_or_future_work": "Motivated by uncertainty from unknown forces, ambient noise and measurement error. Follow-up papers study uncertainty and Hankel-dimension sensitivity (Karun IV, 2022/23)."
+ },
+ {
+  "id": "T06",
+  "status": "verified-core",
+  "cluster": "C1",
+  "year": 2018,
+  "title": "Damage detection based on system identification of concrete dams using an extended finite element-wavelet transform coupled procedure",
+  "venue": "Journal of Vibration and Control, 24(18), 4226-4246",
+  "doi": "10.1177/1077546317722428",
+  "consensus_url": "https://consensus.app/papers/details/22be44dde0c05118886710e7966306dc/?utm_source=claude_desktop",
+  "authors": [
+   "Sajjad Pirboudaghi",
+   "Reza Tarinejad",
+   "Mohammad Taghi Alami"
+  ],
+  "confidence": "high",
+  "evidence_source": "consensus, websearch, publisher",
+  "belongs_reason": "The SAGE listing names the authors as Pirboudaghi, Reza Tarinejad and Mohammad Taghi Alami. M.T. Alami/Aalami of Tabriz also co-authored the Karun IV paper.",
+  "structure_type": "concrete arch dam (Karun III used as case per ResearchGate figure)",
+  "methods": [
+   "XFEM with cohesive crack segments (XFEM-COH)",
+   "continuous wavelet transform system identification",
+   "intact (FEM) vs damaged (XFEM) modal comparison",
+   "seismic excitation"
+  ],
+  "key_findings": "Couples XFEM-COH cracking simulation with CWT-based identification to find when seismic cracking starts and where the damage is, without placing an initial crack. Comparing intact and damaged modal parameters shows the history of physical changes and small system changes. The final crack profile under strong motion is also obtained.",
+  "stated_limitations_or_future_work": "Purely numerical (simulated responses). Proposed for online SHM of concrete dams."
+ },
+ {
+  "id": "T07",
+  "status": "verified-core",
+  "cluster": "C1",
+  "year": 2021,
+  "title": "Seismic modal identification using a new approach based on weighted transmissibility",
+  "venue": "Earthquake Engineering & Structural Dynamics, 50(7)",
+  "doi": "10.1002/eqe.3435",
+  "consensus_url": "https://consensus.app/papers/details/24bd8ad11fd7519682e687f3675a8699/?utm_source=claude_desktop",
+  "authors": [
+   "Majid Damadipour",
+   "Reza Tarinejad",
+   "Mohammad Hossein Aminfar"
+  ],
+  "confidence": "high",
+  "evidence_source": "consensus, websearch",
+  "belongs_reason": "Consensus shows 'M. Damadipour et al.'. Web search lists it among Tarinejad and Damadipour's joint papers and gives the authors as Damadipour, Tarinejad and Aminfar, but this was inferred from related citations because the Wiley page was blocked.",
+  "structure_type": "generic (5DOF theoretical system)",
+  "methods": [
+   "weighted transmissibility-based OMA",
+   "single-reference weighted transmissibility combined in matrix form",
+   "SVD of weighted transmissibility matrices",
+   "single/multiple loading conditions"
+  ],
+  "key_findings": "Standard transmissibility OMA does poorly on short seismic records because of spectral leakage and dispersion. Weighted transmissibility over one or more loading conditions, followed by SVD, correctly identifies frequencies and mode shapes.",
+  "stated_limitations_or_future_work": "Validated only on a theoretical 5DOF example. Field application came in the STC 2022 paper (Karun 3)."
+ },
+ {
+  "id": "T08",
+  "status": "verified-core",
+  "cluster": "C1",
+  "year": 2022,
+  "title": "Structural system identification based on combining weighted transmissibility and wavelet transform",
+  "venue": "Structural Control and Health Monitoring, 29(2), e2868 (online 2021)",
+  "doi": "10.1002/stc.2868",
+  "consensus_url": "https://consensus.app/papers/details/d02ba0f2466c5065afda9a3fdb216ae5/?utm_source=claude_desktop",
+  "authors": [
+   "Majid Damadipour",
+   "Reza Tarinejad",
+   "Mohammad Hossein Aminfar"
+  ],
+  "confidence": "high",
+  "evidence_source": "consensus, websearch",
+  "belongs_reason": "Web search confirms Reza Tarinejad (Faculty of Civil Engineering, University of Tabriz) is a co-author, with frequent co-author Damadipour as first author. This was a web lead and is now verified in Consensus. The full author list, including Aminfar, comes from web-search summaries.",
+  "structure_type": "arch dam (Karun 3) + numerical model under El Centro",
+  "methods": [
+   "WTs-OMA (weighted transmissibility + wavelet transform)",
+   "weighted transmissibility functions",
+   "CWT skeletons / single-frequency signals of correlation functions"
+  ],
+  "key_findings": "Integrated time-frequency method with both parametric and non-parametric features for seismic responses. Weighted transmissibility gives frequencies and mode shapes, and wavelet ridges/skeletons give damping. Validated on a numerical El Centro model and applied to Karun 3 arch dam records from several earthquakes.",
+  "stated_limitations_or_future_work": "Not retrieved."
+ },
+ {
+  "id": "T09",
+  "status": "verified-core",
+  "cluster": "C1",
+  "year": 2022,
+  "title": "System identification of Karun IV Dam using balanced stochastic subspace algorithm considering the uncertainty of results",
+  "venue": "Journal of Vibration and Control (issue 2023, 29(23-24))",
+  "doi": "",
+  "consensus_url": "https://consensus.app/papers/details/40027fdf884d5102a681500f5c7db907/?utm_source=claude_desktop",
+  "authors": [
+   "Mehran Pourgholi",
+   "Reza Tarinejad",
+   "M. E. Khabir",
+   "M. Mohammadzadeh Gilarlue"
+  ],
+  "confidence": "high",
+  "evidence_source": "consensus, websearch",
+  "belongs_reason": "Web search gives the authors as Pourgholi, Tarinejad, Khabir and Mohammadzadeh Gilarlue (JVC 2023, 29(23-24)). It continues Tarinejad's B-SSI and Karun IV work.",
+  "structure_type": "arch dam (Karun IV)",
+  "methods": [
+   "balanced SSI (B-SSI)",
+   "condition-number filtering",
+   "DBSCAN clustering",
+   "modal complexity factor",
+   "coefficient-of-variation sensitivity analysis of Hankel matrix dimensions"
+  ],
+  "key_findings": "Studies how Hankel-matrix user parameters (columns, block rows) affect the uncertainty of Karun IV modal estimates. Condition number, DBSCAN and MCF remove noise and computational modes. The first mode was extracted within 10% of the numerical model.",
+  "stated_limitations_or_future_work": "Uncertainty from output-only identification is still a challenge, and results depend on user-defined Hankel parameters."
+ },
+ {
+  "id": "T10",
+  "status": "verified-core",
+  "cluster": "C1",
+  "year": 2025,
+  "title": "Automated modal analysis of an arch dam using a hybrid SSI framework based on error analysis and fuzzy clustering",
+  "venue": "Journal of Vibration and Control",
+  "doi": "",
+  "consensus_url": "https://consensus.app/papers/details/2e2609b18157518e855fa339485c633f/?utm_source=claude_desktop",
+  "authors": [
+   "Reza Tarinejad",
+   "Arian Hafezi",
+   "Mehran Pourgholi"
+  ],
+  "confidence": "high",
+  "evidence_source": "consensus, websearch",
+  "belongs_reason": "Consensus lists 'Reza Tarinejad et al.' as authors. Web search gives the authors as Tarinejad, Hafezi and Pourgholi (published Sept 2025). Same Pacoima/SSI line as his B-SSI work. DOI not found.",
+  "structure_type": "arch dam (Pacoima Dam)",
+  "methods": [
+   "automated covariance-driven SSI (SSI-COV)",
+   "Toeplitz-matrix dimension sensitivity",
+   "figure of merit for noise/error",
+   "condition number of the observability matrix",
+   "distance function for stable poles",
+   "modal complexity factor (MCF)",
+   "fuzzy c-means clustering"
+  ],
+  "key_findings": "Automated SSI-COV for the recent condition of Pacoima Dam. Identified frequencies match the FEM and earlier studies with an average difference under 8%. Damping ratios are close to earlier studies, especially the 2002 forced vibration test, despite closely spaced modes.",
+  "stated_limitations_or_future_work": "Existing OMA assumes white-noise, stationary inputs, which adds uncertainty. This framework tries to reduce that uncertainty but still relies on those assumptions."
+ },
+ {
+  "id": "T11",
+  "status": "verified-core",
+  "cluster": "C1",
+  "year": 2025,
+  "title": "Identification of operational modal parameters using multi-reference weighted Hermitian transmissibility functions",
+  "venue": "Journal of Sound and Vibration, 615, 119212",
+  "doi": "10.1016/j.jsv.2025.119212",
+  "consensus_url": "https://consensus.app/papers/details/f16521ef5ad05373a5de4e5d1f00a0c5/?utm_source=claude_desktop",
+  "authors": [
+   "Reza Tarinejad",
+   "Farhad Amanzad"
+  ],
+  "confidence": "high",
+  "evidence_source": "consensus, websearch",
+  "belongs_reason": "Consensus lists 'Reza Tarinejad et al.' as first author. Web search gives the authors as Tarinejad and Amanzad. It continues his weighted-transmissibility line. NEW, not among the provided leads.",
+  "structure_type": "generic",
+  "methods": [
+   "Poly-reference Weighted Hermitian Transmissibility OMA (P-WHTOMA)",
+   "multi-reference transmissibility"
+  ],
+  "key_findings": "Per the published highlights: fewer fake poles under multiple simultaneous inputs, less effect from non-periodic harmonic components, and structural poles identified under correlated input sources and under similar loading conditions.",
+  "stated_limitations_or_future_work": "Motivated by the inaccuracy of standard TOMA during earthquakes, where signals disperse around the poles."
+ },
+ {
+  "id": "T12",
+  "status": "verified-core",
+  "cluster": "C2",
+  "year": 2013,
+  "title": "Response of an arch dam to non-uniform excitation generated by a seismic wave scattering model",
+  "venue": "Soil Dynamics and Earthquake Engineering, 52, 40-54",
+  "doi": "10.1016/j.soildyn.2013.04.011",
+  "consensus_url": "https://consensus.app/papers/details/c42603799d1659b392b96e21e2c74c26/?utm_source=claude_desktop",
+  "authors": [
+   "Reza Tarinejad",
+   "Roozbeh Fatehi",
+   "Ronald S. Harichandran"
+  ],
+  "confidence": "high",
+  "evidence_source": "consensus,websearch",
+  "belongs_reason": "Consensus lists R. Tarinejad as first author. A web search confirms the author list Tarinejad, Fatehi and Harichandran, which matches the known collaborator R.S. Harichandran. The topic (arch dam, wave scattering) is his core line. The DOI comes from a web-search summary of the ScienceDirect page; the page itself could not be fetched.",
+  "structure_type": "arch dam",
+  "methods": [
+   "seismic wave scattering model",
+   "generation of non-uniform ground motion from a single site record",
+   "EACD-3D-2008 dam-reservoir-foundation interaction analysis",
+   "comparison with recorded responses (2008 Chino Hills earthquake, Pacoima Dam)"
+  ],
+  "key_findings": "Computed displacements under the generated non-uniform excitation agree well with recorded dam responses. Uniform excitation underestimates displacements. Non-uniform input strongly increases stresses near the foundation and changes the stress pattern: maximum stresses move from the crown cantilever near the crest (uniform input) to the sides and the foundation (non-uniform input).",
+  "stated_limitations_or_future_work": "Implied: a linear substructure analysis (EACD-3D-2008) validated against a single earthquake (Chino Hills 2008) at a single dam."
+ },
+ {
+  "id": "T13",
+  "status": "verified-core",
+  "cluster": "C2",
+  "year": 2019,
+  "title": "A new approach to generating non-uniform support excitation at topographic sites",
+  "venue": "Soils and Foundations, 59(6), 1933-1945",
+  "doi": "10.1016/j.sandf.2019.09.006",
+  "consensus_url": "https://consensus.app/papers/details/76d117d4ae98588da74a8b00ceb925ca/?utm_source=claude_desktop",
+  "authors": [
+   "Mohsen Isari",
+   "Reza Tarinejad",
+   "Abbasali TaghaviGhalesari",
+   "Abdollah Sohrabi-Bidar"
+  ],
+  "confidence": "high",
+  "evidence_source": "consensus,websearch",
+  "belongs_reason": "A web search gives the full author list, which includes Reza Tarinejad (University of Tabriz) and his usual co-authors Isari, Taghavi Ghalesari and Sohrabi-Bidar.",
+  "structure_type": "generic (V-shaped canyon / dam site)",
+  "methods": [
+   "time-domain BEM (BEMSA code)",
+   "Ricker-wave parametric analyses",
+   "symbolic regression",
+   "random vibration simulation",
+   "validation with Pacoima Dam records (two earthquakes)"
+  ],
+  "key_findings": "The paper derives regression relations for the time delay and the spectral coherence function of V-shaped canyons, which flat-site coherence models cannot represent. They agree with Pacoima Dam records and are used to simulate non-uniform support accelerations.",
+  "stated_limitations_or_future_work": "Existing coherence models come from flat-surface data and do not suit topographic sites, which is the gap this paper addresses. The relations are specific to V-shaped canyons."
+ },
+ {
+  "id": "T14",
+  "status": "verified-core",
+  "cluster": "C2",
+  "year": 2020,
+  "title": "A new solution to estimate the time delay on the topographic site using time domain 3D boundary element method",
+  "venue": "Earthquake Engineering and Engineering Vibration, 19, 611-623",
+  "doi": "10.1007/s11803-020-0584-8",
+  "consensus_url": "https://consensus.app/papers/details/6f9a0f5299e45d6486a5ad348816d562/?utm_source=claude_desktop",
+  "authors": [
+   "Reza Tarinejad",
+   "Mohsen Isari",
+   "Abdollah Sohrabi-Bidar"
+  ],
+  "confidence": "high",
+  "evidence_source": "consensus,websearch",
+  "belongs_reason": "Consensus lists R. Tarinejad as first author. A web search confirms Tarinejad, Isari and Sohrabi-Bidar.",
+  "structure_type": "arch dam site (canyon topography)",
+  "methods": [
+   "time-domain 3D BEM",
+   "vertically propagating SH and P waves",
+   "cross-correlation time-delay estimation",
+   "code for generating spatially varying ground motion"
+  ],
+  "key_findings": "The paper proposes a function for the time delay at topographic sites, depending on height above the canyon base, wave velocity and predominant frequency. It estimates delays accurately enough to generate non-uniform ground motion.",
+  "stated_limitations_or_future_work": "Implied: limited to vertically propagating SH and P waves."
+ },
+ {
+  "id": "T15",
+  "status": "verified-core",
+  "cluster": "C2",
+  "year": 2021,
+  "title": "Introducing an effective coherence function to generate non-uniform ground motion on topographic site using time-domain boundary element method",
+  "venue": "Earthquake Engineering and Engineering Vibration, 20(1), 89-100",
+  "doi": "10.1007/s11803-021-2007-x",
+  "consensus_url": "https://consensus.app/papers/details/ef51ebbc049f54d4a5634f752cca41ea/?utm_source=claude_desktop",
+  "authors": [
+   "Mohsen Isari",
+   "Reza Tarinejad"
+  ],
+  "confidence": "high",
+  "evidence_source": "consensus,websearch",
+  "belongs_reason": "A web search confirms the authors Isari and Tarinejad (University of Tabriz).",
+  "structure_type": "generic (V-shaped topography)",
+  "methods": [
+   "time-domain BEM",
+   "SV-wave parametric analysis over predominant frequency and shape ratio"
+  ],
+  "key_findings": "The paper proposes new coherence and time-delay functions for topographic irregularities and validates them against observations reported in the literature.",
+  "stated_limitations_or_future_work": "Points to the lack of topography-specific coherence models."
+ },
+ {
+  "id": "T16",
+  "status": "verified-core",
+  "cluster": "C4",
+  "year": 2019,
+  "title": "Numerical Investigation of Cavitation on Spillways. A Case Study: Aydoghmush dam",
+  "venue": "Numerical Methods in Civil Engineering 4(1):1-9",
+  "doi": "10.52547/nmce.4.1.1",
+  "consensus_url": "",
+  "authors": [
+   "M. Barzegari",
+   "R. Sobhkhiz Foumani",
+   "M. Isari",
+   "R. Tarinejad",
+   "S. A. Alavi"
+  ],
+  "confidence": "high",
+  "evidence_source": "websearch",
+  "belongs_reason": "R. Tarinejad (University of Tabriz) is in the author list. Co-authors Isari and Sobhkhiz Foumani recur in other Tarinejad papers (Sabalan dam, Karun-4 explosion). The topic is an Iranian dam spillway.",
+  "structure_type": "spillway (Aydoghmush dam, Iran)",
+  "methods": [
+   "ANSYS FLUENT",
+   "standard k-epsilon turbulence model",
+   "Volume of Fluid (VOF) free-surface method",
+   "cavitation index computation"
+  ],
+  "key_findings": "Simulated spillway flow at 35, 800, 1500 and 1850 m3/s and computed the cavitation index along the spillway. Per the search summary, the minimum cavitation index was about 0.28 at 1850 m3/s, which the authors read as low cavitation risk.",
+  "stated_limitations_or_future_work": "Not retrieved. The paper uses only the standard k-epsilon model and does not model aeration or air concentration explicitly."
+ },
+ {
+  "id": "T17",
+  "status": "verified-core",
+  "cluster": "C4",
+  "year": 2025,
+  "title": "Soft Computing and Predicting Labyrinth Gates Discharge Coefficient",
+  "venue": "Water Resources, 52(4):701-714",
+  "doi": "10.1134/S0097807824604734",
+  "consensus_url": "",
+  "authors": [
+   "Hamidreza Abbaszadeh",
+   "Reza Tarinejad"
+  ],
+  "confidence": "high",
+  "evidence_source": "websearch,researchgate",
+  "belongs_reason": "ResearchGate listing names Abbaszadeh and Reza Tarinejad. Machine learning for hydraulic gates fits his hydraulic-structures and physical-modelling profile. One summary also mentioned a February 2026 Water Practice & Technology paper by the same pair, which a follow-up search could not confirm.",
+  "structure_type": "gate (labyrinth sliding gate with sill)",
+  "methods": [
+   "Support Vector Machine (RBF, polynomial, linear, sigmoid kernels)",
+   "K-nearest neighbours",
+   "Artificial Neural Network",
+   "laboratory experiments"
+  ],
+  "key_findings": "Uses 345 experimental points (70% train, 30% test). The RBF-kernel SVM predicted Cd best. Adding a sill to a labyrinth sliding gate raised Cd by 9.9%, 11.8%, 13.4% and 20.8% for sill widths of 5, 15, 20 and 30.5 cm compared with a standard sliding gate.",
+  "stated_limitations_or_future_work": "Not retrieved."
+ },
+ {
+  "id": "T18",
+  "status": "verified-core",
+  "cluster": "C4",
+  "year": 2026,
+  "title": "Investigation of the Effects of Internal Structure and Material Properties on the Hydraulic Performance of Rectangular Gabion Weirs: Experimental and Numerical Study",
+  "venue": "Water Resources Management 40, article 376",
+  "doi": "10.1007/s11269-026-04667-3",
+  "consensus_url": "",
+  "authors": [
+   "Hamidreza Abbaszadeh",
+   "Reza Tarinejad",
+   "Kiyoumars Roushangar",
+   "Rasoul Daneshfaraz"
+  ],
+  "confidence": "high",
+  "evidence_source": "websearch",
+  "belongs_reason": "Reza Tarinejad (Faculty of Civil Engineering, University of Tabriz) is a co-author with Tabriz colleagues Abbaszadeh and Roushangar. Daneshfaraz (University of Maragheh) is a known collaborator. The author order is not fully certain.",
+  "structure_type": "broad-crested rectangular gabion weir",
+  "methods": [
+   "laboratory experiments",
+   "CFD (turbulence model comparison: RNG k-epsilon, standard k-epsilon, k-omega, LES)"
+  ],
+  "key_findings": "Studied Cd of broad-crested rectangular gabion weirs both experimentally and numerically. The RNG model matched best compared with k-epsilon, k-omega and LES. Total discharge rises with upstream head, but higher heads and more through-flow raise energy losses and lower discharge efficiency.",
+  "stated_limitations_or_future_work": "Not retrieved."
+ },
+ {
+  "id": "T19",
+  "status": "verified-core",
+  "cluster": "C4",
+  "year": 2026,
+  "title": "Optimized Mesh Zoning for Dam Bottom Outlet CFD Simulations Using Richardson Extrapolation and Grid Convergence Analysis",
+  "venue": "Engineering Reports, 8(6)",
+  "doi": "10.1002/eng2.70800",
+  "consensus_url": "",
+  "authors": [
+   "Mohammad Masoud Vaseti",
+   "Ali Akbar Akhtari",
+   "Reza Tarinejad"
+  ],
+  "confidence": "high",
+  "evidence_source": "websearch,publisher",
+  "belongs_reason": "Wiley listing and search snippet give the author list Vaseti, Akhtari, Reza Tarinejad. Hydraulic-structures topic matches his listed expertise. Confirms the web lead.",
+  "structure_type": "bottom outlet",
+  "methods": [
+   "CFD",
+   "Richardson extrapolation",
+   "Grid Convergence Index (GCI)",
+   "mesh zoning"
+  ],
+  "key_findings": "Systematic mesh-zoning based on Richardson extrapolation and GCI picks locally optimal resolutions. The zoned grid cuts total cell count by about 35-40% versus uniform refinement while keeping deviations below about 2-3% in discharge coefficient, wall pressure distribution and key flow-field parameters.",
+  "stated_limitations_or_future_work": "Not retrieved (full text blocked). The model is two-dimensional, which implies 3D effects such as gate-slot flow and air entrainment are not captured."
+ },
+ {
+  "id": "T20",
+  "status": "verified-core",
+  "cluster": "C5",
+  "year": 2024,
+  "title": "Investigating Concrete Arch Dam Behavior Under underwater explosion (Case Study: Karun4 Dam)",
+  "venue": "Numerical Methods in Civil Engineering, 8(3)",
+  "doi": "",
+  "consensus_url": "",
+  "authors": [
+   "Reza Tarinejad",
+   "Hesane Ghanbari",
+   "Ramtin Sobhkhiz"
+  ],
+  "confidence": "high",
+  "evidence_source": "websearch,publisher",
+  "belongs_reason": "Journal page lists Reza Tarinejad, Professor at the University of Tabriz, as first author. Karun-4 is a dam he has studied before. Accepted 1 Dec 2023.",
+  "structure_type": "arch dam",
+  "methods": [
+   "Finite element method (ABAQUS)",
+   "dam-reservoir-foundation coupled model",
+   "underwater explosion (TNT) loading"
+  ],
+  "key_findings": "The dam failed under 1300, 2000 and 2000 kg TNT detonated at 225, 115 and 5 m respectively. Reservoir water level had a negligible effect on the failure blast load.",
+  "stated_limitations_or_future_work": "Not retrieved."
+ },
+ {
+  "id": "S01",
+  "status": "supporting",
+  "cluster": "C1",
+  "year": 2026,
+  "title": "A Novel Complex Frequency-Domain Approach Using Power Spectral Density Transmissibility to Extract Dynamic Characteristics",
+  "venue": "Journal of Vibration Engineering & Technologies",
+  "doi": "10.1007/s42417-026-02569-7",
+  "consensus_url": "",
+  "authors": [
+   "Reza Tarinejad",
+   "Farhad Amanzad"
+  ],
+  "confidence": "medium",
+  "evidence_source": "websearch",
+  "belongs_reason": "Web-search summaries give the authors as Reza Tarinejad and Farhad Amanzad (same pair as JSV 2025). The Springer page was blocked, so the author list was not seen directly, and there was no Consensus quota left to check it.",
+  "structure_type": "gravity dam (Koyna Dam, three excitation records)",
+  "methods": [
+   "PSD transmissibility - complex frequency (PSDT-CF)",
+   "forward/backward frequency shift via z-transform",
+   "modified transmissibility functions"
+  ],
+  "key_findings": "Reduces spectral leakage near poles and separates closely spaced modes better in short earthquake records. On noisy Koyna responses, the 4th-mode frequency error is at most 2% and damping error 5% for frequency shifts above 120. Frequency errors are under 2.5% for all modes.",
+  "stated_limitations_or_future_work": "Conventional techniques give large pole errors for closely spaced modes, and short non-periodic seismic records increase spectral dispersion in higher modes. Validation is numerical (Koyna)."
+ },
+ {
+  "id": "S02",
+  "status": "supporting",
+  "cluster": "C1",
+  "year": 2020,
+  "title": "Weighted Transmissibility-Based Operational Modal Analysis for Identification of Structures Using Seismic Responses",
+  "venue": "Iranian Journal of Science and Technology, Transactions of Civil Engineering",
+  "doi": "10.1007/s40996-020-00509-3",
+  "consensus_url": "https://consensus.app/papers/details/5e9adee7aeac5fdca7d65ae26a08eb17/?utm_source=claude_desktop",
+  "authors": [
+   "Majid Damadipour",
+   "Reza Tarinejad",
+   "Mohammad Hossein Aminfar"
+  ],
+  "confidence": "high",
+  "evidence_source": "consensus, websearch",
+  "belongs_reason": "Web search gives the authors as Damadipour, Tarinejad and Aminfar. Consensus shows 'M. Damadipour et al.' Consensus gives the year as 2020 (online first); the print issue may be 2021.",
+  "structure_type": "generic (2-, 3-, 5-, 10-DOF theoretical systems)",
+  "methods": [
+   "weighted transmissibility-based OMA",
+   "PIS(omega) function from singular values of weighted transmissibility matrices",
+   "single loading condition"
+  ],
+  "key_findings": "Proposes weighted-transmissibility OMA for short seismic records with high spectral leakage, using the PIS(omega) indicator. Demonstrated on 2-, 3-, 5- and 10-DOF examples.",
+  "stated_limitations_or_future_work": "Theoretical examples only."
+ },
+ {
+  "id": "S03",
+  "status": "supporting",
+  "cluster": "C3",
+  "year": 2021,
+  "title": "Modal Identification of a Soil-subway System with Emphasis on Scattering of Seismic Waves Induced by Uniform and Non-uniform Support Excitations",
+  "venue": "Journal of Earthquake Engineering, 26(12) (issue dated 2022; online 2021)",
+  "doi": "10.1080/13632469.2021.1927890",
+  "consensus_url": "https://consensus.app/papers/details/2c669510b80b57c3b5cbc222c6588c05/?utm_source=claude_desktop",
+  "authors": [
+   "Mohsen Isari",
+   "Seyyed Kazem Razavi",
+   "Reza Tarinejad"
+  ],
+  "confidence": "high",
+  "evidence_source": "consensus,websearch",
+  "belongs_reason": "A web search (T&F page) gives the authors Isari, Razavi and Tarinejad, all University of Tabriz. The methods (FRFM-SVD, wavelet) are Tarinejad's system-identification line.",
+  "structure_type": "underground structure (subway)",
+  "methods": [
+   "FRFM-SVD system identification",
+   "wavelet transform damping extraction",
+   "random vibration with coherence functions",
+   "uniform vs non-uniform excitation"
+  ],
+  "key_findings": "The extended FRFM-SVD method identifies the seismic behaviour of the underground structure with reasonable accuracy. Maximum amplification near the subway is about 1.75 under non-uniform excitation, roughly 20% more than under uniform excitation.",
+  "stated_limitations_or_future_work": "Recommends combining the presence of underground structures with non-uniform excitation to estimate surface accelerations accurately."
+ },
+ {
+  "id": "S04",
+  "status": "supporting",
+  "cluster": "C5",
+  "year": 2015,
+  "title": "Legendre spectral element method for seismic analysis of dam-reservoir interaction",
+  "venue": "International Journal of Civil Engineering (IUST), 13(2), 148-159",
+  "doi": "",
+  "consensus_url": "",
+  "authors": [
+   "R. Tarinejad",
+   "S. Pirboudaghi"
+  ],
+  "confidence": "medium",
+  "evidence_source": "websearch",
+  "belongs_reason": "Citing literature found by web search attributes it to Tarinejad and Pirboudaghi, a known Tarinejad co-author (see the XFEM-wavelet paper). Some citations give the year as 2014, but IJCE volume 13 corresponds to 2015.",
+  "structure_type": "concrete dam (dam-reservoir system)",
+  "methods": [
+   "Legendre spectral element method",
+   "custom SEM and FEM codes",
+   "comparison of accuracy and computational time"
+  ],
+  "key_findings": "SEM achieves spectral convergence by raising the polynomial degree in the reservoir or the number of dam elements. Reservoir boundary conditions are evaluated with exact diagonal matrices, and SEM is compared with FEM for accuracy and cost.",
+  "stated_limitations_or_future_work": "Not retrieved."
+ },
+ {
+  "id": "S05",
+  "status": "supporting",
+  "cluster": "C5",
+  "year": 2018,
+  "title": "Parametric study of stochastic seismic responses of base-isolated liquid storage tanks under near-fault and far-fault ground motions",
+  "venue": "Journal of Vibration and Control 24(24):5747-5764",
+  "doi": "",
+  "consensus_url": "",
+  "authors": [
+   "S. Safari",
+   "R. Tarinejad"
+  ],
+  "confidence": "high",
+  "evidence_source": "websearch",
+  "belongs_reason": "Two consistent snippets give the citation as S. Safari and R. Tarinejad, JVC 2018. The fluid-structure seismic topic fits his profile.",
+  "structure_type": "liquid storage tank (base-isolated)",
+  "methods": [
+   "stochastic (random vibration) seismic analysis",
+   "parametric study",
+   "sliding/base isolation modelling",
+   "sloshing"
+  ],
+  "key_findings": "Near-fault motions amplify overall response. Sliding bearings greatly reduce sloshing. Base isolation protects tanks well against far-fault motions, but isolator and sloshing displacements can threaten safety under near-fault motions.",
+  "stated_limitations_or_future_work": "Not retrieved."
+ },
+ {
+  "id": "S06",
+  "status": "supporting",
+  "cluster": "C4",
+  "year": 2023,
+  "title": "Discharge coefficient of combined rectangular-triangular weirs using soft computing models",
+  "venue": "Journal of Hydraulic Structures (Shahid Chamran University of Ahvaz) 9(1):98-110",
+  "doi": "",
+  "consensus_url": "",
+  "authors": [
+   "Hamidreza Abbaszadeh",
+   "Reza Norouzi",
+   "Veli Süme",
+   "Rasoul Daneshfaraz",
+   "Reza Tarinejad"
+  ],
+  "confidence": "medium",
+  "evidence_source": "websearch",
+  "belongs_reason": "Two independent snippets, one of them a reference list in a Turkish Journal of Hydraulic article, put Tarinejad in the author list with his Abbaszadeh/Daneshfaraz/Norouzi group. The DOI and journal landing page were not retrieved.",
+  "structure_type": "combined rectangular-triangular (chimney) weir",
+  "methods": [
+   "ANFIS",
+   "M5P model tree",
+   "Gaussian Process regression",
+   "110 laboratory data points; inputs h/p, y/p, L/p, w/z"
+  ],
+  "key_findings": "Predicted Cd of chimney weirs with different apex angles. M5P performed best, with R about 0.953 in training and 0.947 in testing and RMSE about 0.0032 and 0.0033.",
+  "stated_limitations_or_future_work": "Not retrieved."
+ }
+]
