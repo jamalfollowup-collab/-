@@ -37,7 +37,7 @@ const THEMES = {
     text: '262B33', muted: '5F6B7A',
     tableHeadFill: '1F2A44', tableHeadText: 'FFFFFF', tableStripe: 'F3F7F7',
     h1Style: 'rule',      // h1 with bottom rule
-    margins: { top: 1250, bottom: 1150, left: 1250, right: 1250 },
+    margins: { top: 1050, bottom: 1000, left: 1150, right: 1150 },
     headerLabel: 'PhD Research Proposal — Zina',
   },
   // Jamal: graphite + deep burgundy + muted bronze; engineering / decision layout.
@@ -48,7 +48,7 @@ const THEMES = {
     text: '2E2E2E', muted: '5A5A5A',
     tableHeadFill: '3B3B3B', tableHeadText: 'FFFFFF', tableStripe: 'F6F2EC',
     h1Style: 'bar',       // h1 with left burgundy bar + numbered label
-    margins: { top: 1100, bottom: 1100, left: 1150, right: 1150 },
+    margins: { top: 950, bottom: 950, left: 1050, right: 1050 },
     headerLabel: 'PhD Research Proposal — Jamal',
   },
   // Common program: neutral university navy + charcoal.
